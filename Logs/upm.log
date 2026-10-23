@@ -1,0 +1,120 @@
+[2026-10-20T17:56:25.534Z][INFO] Command-line: /home/aisha/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Resources/PackageManager/Server/UnityPackageManager server -s 6232 --ipc-path /tmp/Unity-Upm-6232.sock -l 2 --log-file /home/aisha/jojo/Logs/upm.log
+[2026-10-20T17:56:25.562Z][INFO] IPC server started (IPC path=/tmp/Unity-Upm-6232.sock).
+[2026-10-20T17:56:25.562Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-6232.
+[2026-10-20T17:56:27.165Z][INFO] project:add-dependency <-- Request received
+params: {
+  "packageId": "com.unity.toolchain.linux-x86_64-linux"
+}
+[2026-10-20T17:56:27.177Z][INFO] project:add-dependency <-- Request received
+params: {
+  "packageId": "com.unity.sdk.linux-x86_64"
+}
+[2026-10-20T17:56:27.187Z][INFO] project:add-dependency <-- Request received
+params: {
+  "packageId": "com.unity.sdk.linux-arm64"
+}
+[2026-10-20T17:56:27.357Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T17:56:27.369Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T17:56:27.516Z][INFO] project:list-packages --> 200 (159 ms)
+[2026-10-20T17:56:27.795Z][INFO] Downloading package [com.unity.package-manager.metadata-6000.6@0.0.95] from registry 'https://packages.unity.com'
+[2026-10-20T17:56:29.733Z][INFO] Finished downloading package [com.unity.package-manager.metadata-6000.6@0.0.95] from registry 'https://packages.unity.com' (size: 11.5 kB, time: 1.9s)
+[2026-10-20T17:56:33.916Z][INFO] project:list-packages --> 200 (6547 ms)
+[2026-10-20T17:56:34.083Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-20T17:56:34.084Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T17:56:34.115Z][INFO] config:project:get-registries --> 200 (32 ms)
+[2026-10-20T17:56:34.280Z][INFO] project:update-dependencies <-- Request received
+params: {}
+[2026-10-20T17:56:34.963Z][INFO] project:list-packages --> 200 (879 ms)
+[2026-10-20T17:56:35.479Z][ERROR] Unable to fetch CRL at http://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl: Error: Cannot connect to 'crl3.digicert.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-20T17:56:35.480Z][WARN] Using cached CRL for http://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl, but it may be expired
+[2026-10-20T17:56:36.209Z][ERROR] Unable to fetch CRL at http://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl: Error: Cannot connect to 'crl3.digicert.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-20T17:56:36.210Z][WARN] Using cached CRL for http://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl, but it may be expired
+[2026-10-20T17:56:36.762Z][ERROR] Unable to fetch CRL at http://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl: Error: Cannot connect to 'crl3.digicert.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-20T17:56:36.762Z][WARN] Using cached CRL for http://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl, but it may be expired
+[2026-10-20T17:56:37.704Z][ERROR] Unable to fetch CRL at http://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl: Error: Cannot connect to 'crl3.digicert.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-20T17:56:37.704Z][WARN] Using cached CRL for http://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl, but it may be expired
+[2026-10-20T17:56:38.278Z][ERROR] Unable to fetch CRL at http://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl: Error: Cannot connect to 'crl3.digicert.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-20T17:56:38.279Z][WARN] Using cached CRL for http://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl, but it may be expired
+[2026-10-20T17:56:39.333Z][ERROR] Unable to fetch CRL at http://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl: Error: Cannot connect to 'crl3.digicert.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-20T17:56:39.334Z][WARN] Using cached CRL for http://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl, but it may be expired
+[2026-10-20T17:56:40.218Z][INFO] project:add-dependency --> 200 (13053 ms)
+[2026-10-20T17:56:48.358Z][ERROR] Unable to fetch CRL at http://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl: Error: Cannot connect to 'crl3.digicert.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-20T17:56:48.359Z][WARN] Using cached CRL for http://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl, but it may be expired
+[2026-10-20T17:56:48.392Z][INFO] project:add-dependency --> 200 (21215 ms)
+[2026-10-20T17:57:03.199Z][INFO] project:add-dependency --> 200 (36012 ms)
+[2026-10-20T17:57:03.203Z][INFO] project:update-dependencies --> 200 (28923 ms)
+[2026-10-20T17:57:03.245Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2026-10-20T17:57:10.797Z][WARN] Requested version [1.0.3] for package [com.unity.settings-manager] overridden by minimum version [2.1.1].
+[2026-10-20T17:57:10.798Z][INFO] project:resolve-packages --> 200 (7553 ms)
+[2026-10-20T17:57:40.881Z][INFO] project:add-dependency <-- Request received
+params: {
+  "packageId": "com.unity.toolchain.linux-x86_64-linux"
+}
+[2026-10-20T17:57:40.893Z][INFO] project:add-dependency <-- Request received
+params: {
+  "packageId": "com.unity.sdk.linux-x86_64"
+}
+[2026-10-20T17:57:40.910Z][INFO] project:add-dependency <-- Request received
+params: {
+  "packageId": "com.unity.sdk.linux-arm64"
+}
+[2026-10-20T17:57:41.084Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T17:57:41.145Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T17:57:41.326Z][INFO] project:list-packages --> 200 (242 ms)
+[2026-10-20T17:57:41.419Z][INFO] project:list-packages --> 200 (274 ms)
+[2026-10-20T17:57:41.491Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T17:57:41.626Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-20T17:57:41.630Z][INFO] project:list-packages --> 200 (139 ms)
+[2026-10-20T17:57:41.631Z][INFO] config:project:get-registries --> 200 (5 ms)
+[2026-10-20T17:57:51.909Z][INFO] project:add-dependency --> 200 (11028 ms)
+[2026-10-20T17:57:51.997Z][INFO] project:add-dependency --> 200 (11104 ms)
+[2026-10-20T17:57:52.090Z][INFO] project:add-dependency --> 200 (11180 ms)
+[2026-10-20T17:57:58.542Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T17:57:58.655Z][INFO] project:list-packages --> 200 (113 ms)
+[2026-10-20T17:57:59.608Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T17:57:59.710Z][INFO] project:list-packages --> 200 (102 ms)
+[2026-10-20T17:58:02.397Z][INFO] project:add-dependency <-- Request received
+params: {
+  "packageId": "com.unity.toolchain.linux-x86_64-linux"
+}
+[2026-10-20T17:58:02.408Z][INFO] project:add-dependency <-- Request received
+params: {
+  "packageId": "com.unity.sdk.linux-x86_64"
+}
+[2026-10-20T17:58:02.419Z][INFO] project:add-dependency <-- Request received
+params: {
+  "packageId": "com.unity.sdk.linux-arm64"
+}
+[2026-10-20T17:58:02.497Z][INFO] project:add-dependency --> 200 (100 ms)
+[2026-10-20T17:58:02.579Z][INFO] project:add-dependency --> 200 (171 ms)
+[2026-10-20T17:58:02.686Z][INFO] project:add-dependency --> 200 (267 ms)
+[2026-10-20T17:58:02.712Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T17:58:02.745Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T17:58:02.882Z][INFO] project:list-packages --> 200 (170 ms)
+[2026-10-20T17:58:02.912Z][INFO] project:list-packages --> 200 (167 ms)
+[2026-10-20T17:58:03.008Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T17:58:03.082Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-20T17:58:03.090Z][INFO] config:project:get-registries --> 200 (8 ms)
+[2026-10-20T17:58:03.124Z][INFO] project:list-packages --> 200 (116 ms)
+[2026-10-20T17:58:08.217Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T17:58:08.227Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-20T17:58:08.402Z][INFO] project:list-packages --> 200 (186 ms)
+[2026-10-20T17:58:08.437Z][INFO] project:list-packages --> 200 (210 ms)
+[2026-10-20T17:58:31.808Z][INFO] Received shutdown request (SIGINT), shutting down Unity Package Manager
